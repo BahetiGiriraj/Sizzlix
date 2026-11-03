@@ -37,7 +37,7 @@ export interface SocialLink {
 export const companyInfo = {
   name: 'Sizzlix',
   tagline: 'Restaurant-Style Flavour, Made for Home',
-  description: 'Sizzlix is an Indo-Chinese and Italian sauce brand built for the modern Indian kitchen. We make restaurant-style flavour accessible at home — from schezwan and red chilli to dark soya and pizza pasta sauce — so a weeknight stir-fry or a lazy-Sunday pasta can taste like it came from your favourite restaurant, not a bottle.',
+  description: 'Sizzlix is an Indo-Chinese and Italian sauce brand built for the modern Indian kitchen. We make restaurant-style flavour accessible at home  from schezwan and red chilli to dark soya and pizza pasta sauce so a weeknight stir-fry or a lazy-Sunday pasta can taste like it came from your favourite restaurant, not a bottle.',
   email: 'customercare@sjmdfoods.com',
   phone: '+91 9119132499',
   address: 'India', // PLACEHOLDER: Add full address if needed
@@ -45,7 +45,7 @@ export const companyInfo = {
 
 // ===== ABOUT US INFORMATION =====
 export const aboutInfo = {
-  overview: 'Sizzlix is an Indo-Chinese and Italian sauce brand built for the modern Indian kitchen. We make restaurant-style flavour accessible at home — from schezwan and red chilli to dark soya and pizza pasta sauce — so a weeknight stir-fry or a lazy-Sunday pasta can taste like it came from your favourite restaurant, not a bottle.',
+  overview: 'Sizzlix is an Indo-Chinese and Italian sauce brand built for the modern Indian kitchen. We make restaurant-style flavour accessible at home  from schezwan and red chilli to dark soya and pizza pasta sauce  so a weeknight stir-fry or a lazy-Sunday pasta can taste like it came from your favourite restaurant, not a bottle.',
   mission: 'Our mission is simple: bring the taste of restaurant-quality Indo-Chinese and Italian cooking into everyday home kitchens, without the effort of building flavour from scratch every time. We believe great taste shouldn\'t be reserved for eating out.',
   vision: 'To become India\'s most trusted kitchen companion, making restaurant-quality cooking accessible to every home cook, transforming everyday meals into extraordinary dining experiences.',
   values: [

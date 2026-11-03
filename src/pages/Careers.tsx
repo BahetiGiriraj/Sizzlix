@@ -9,7 +9,7 @@ function Careers() {
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Careers
             </h1>
             <p className="text-xl text-primary-100 max-w-3xl mx-auto">
@@ -27,7 +27,7 @@ function Careers() {
           {hasOpenings ? (
             <>
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
                   Open Positions
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -95,7 +95,7 @@ function Careers() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl md:text-3xl font-display font-bold text-gray-900 mb-4">
                   No Current Openings
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
@@ -129,11 +129,11 @@ function Careers() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
                 Why Work With Us
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                We offer more than just a job — we offer a career
+                We offer more than just a job, we offer a career
               </p>
             </div>
 

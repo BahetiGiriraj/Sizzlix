@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { companyInfo, products, youtubeVideos, socialLinks } from '../config/company';
+import { companyInfo, products, socialLinks } from '../config/company';
 import ProductModal from '../components/ProductModal';
 
 function Home() {
@@ -31,7 +31,7 @@ function Home() {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="text-center animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight drop-shadow-lg">
               {companyInfo.name}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white font-light drop-shadow-md">
@@ -59,10 +59,10 @@ function Home() {
       </section>
 
       {/* Company Introduction */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
               Who We Are
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -84,10 +84,10 @@ function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-16 md:py-24 bg-white">
+      <section id="products" className="py-16 md:py-24 bg-gradient-to-b from-primary-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
               Our Products
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -156,62 +156,11 @@ function Home() {
         />
       )}
 
-      {/* YouTube Videos Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Watch Our Videos
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Get to know us better through our video content
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {youtubeVideos.map((video, index) => (
-              <div
-                key={video.id}
-                className="group"
-                style={{ animationDelay: `${index * 150}ms` }}
-              >
-                <a
-                  href={`https://www.youtube.com/watch?v=${video.videoId}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                >
-                  <div className="aspect-video relative">
-                    <img
-                      src={video.thumbnail}
-                      alt={video.title}
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center transform scale-100 group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bg-white p-4">
-                    <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
-                      {video.title}
-                    </h3>
-                  </div>
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 mb-8">

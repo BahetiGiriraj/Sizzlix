@@ -7,7 +7,7 @@ function About() {
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
               About Us
             </h1>
             <p className="text-xl text-primary-100 max-w-3xl mx-auto">
@@ -21,7 +21,7 @@ function About() {
       <section className="py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
               Our Story
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -69,7 +69,7 @@ function About() {
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
               Our Values
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -103,7 +103,7 @@ function About() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
               What Makes Us Unique
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -140,7 +140,7 @@ function About() {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-primary-600 to-primary-800 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
             Join Us on Our Journey
           </h2>
           <p className="text-xl text-primary-100 mb-8">

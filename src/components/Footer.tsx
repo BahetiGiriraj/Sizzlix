@@ -43,11 +43,11 @@ function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">
-                  {companyInfo.name.charAt(0)}
-                </span>
-              </div>
+              <img 
+                src="/images/logo.jpeg" 
+                alt={`${companyInfo.name} Logo`}
+                className="h-10 w-auto object-contain"
+              />
               <span className="text-xl font-semibold text-white">
                 {companyInfo.name}
               </span>

@@ -20,11 +20,11 @@ function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">
-                {companyInfo.name.charAt(0)}
-              </span>
-            </div>
+            <img 
+              src="/images/logo.jpeg" 
+              alt={`${companyInfo.name} Logo`}
+              className="h-12 w-auto object-contain"
+            />
             <span className="text-xl font-semibold text-gray-900 hidden sm:block">
               {companyInfo.name}
             </span>
