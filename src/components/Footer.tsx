@@ -42,15 +42,12 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center mb-4">
               <img 
                 src="/images/logo.jpeg" 
                 alt={`${companyInfo.name} Logo`}
-                className="h-10 w-auto object-contain"
+                className="h-12 w-auto object-contain"
               />
-              <span className="text-xl font-semibold text-white">
-                {companyInfo.name}
-              </span>
             </div>
             <p className="text-sm mb-4">{companyInfo.tagline}</p>
             <p className="text-sm text-gray-400">{companyInfo.description}</p>
@@ -94,7 +91,12 @@ function Footer() {
                 </a>
               </li>
               <li className="text-sm">{companyInfo.phone}</li>
-              <li className="text-sm text-gray-400">{companyInfo.address}</li>
+              <li className="text-sm text-gray-400 leading-relaxed">
+                SHREE JMD FOODS & PRODUCTS PRIVATE LIMITED<br />
+                516, Govind Rao Ji Ka Rasta,<br />
+                Chandpole Bazar, Purani Basti,<br />
+                Jaipur, Rajasthan - 302001
+              </li>
             </ul>
 
             {/* Social Links */}

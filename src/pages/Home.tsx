@@ -30,26 +30,26 @@ function Home() {
         
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="text-center animate-fade-in">
+          <div className="max-w-2xl animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight drop-shadow-lg">
               {companyInfo.name}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white font-light drop-shadow-md">
               {companyInfo.tagline}
             </p>
-            <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-white/95 drop-shadow-md">
+            <p className="text-lg md:text-xl mb-12 text-white/95 drop-shadow-md">
               {companyInfo.description}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#products"
-                className="px-8 py-3 bg-white text-primary-700 font-semibold rounded-lg hover:bg-primary-50 transition-all duration-200 shadow-lg hover:shadow-xl"
+                className="px-8 py-3 bg-white text-primary-700 font-semibold rounded-lg hover:bg-primary-50 transition-all duration-200 shadow-lg hover:shadow-xl text-center"
               >
                 Explore Products
               </a>
               <a
                 href={`mailto:${companyInfo.email}`}
-                className="px-8 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-700 transition-all duration-200 backdrop-blur-sm"
+                className="px-8 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-700 transition-all duration-200 backdrop-blur-sm text-center"
               >
                 Get in Touch
               </a>

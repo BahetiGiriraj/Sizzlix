@@ -19,15 +19,12 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center">
             <img 
               src="/images/logo.jpeg" 
               alt={`${companyInfo.name} Logo`}
               className="h-12 w-auto object-contain"
             />
-            <span className="text-xl font-semibold text-gray-900 hidden sm:block">
-              {companyInfo.name}
-            </span>
           </Link>
 
           {/* Desktop Navigation */}

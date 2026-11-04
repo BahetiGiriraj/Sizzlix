@@ -40,7 +40,7 @@ export const companyInfo = {
   description: 'Sizzlix is an Indo-Chinese and Italian sauce brand built for the modern Indian kitchen. We make restaurant-style flavour accessible at home  from schezwan and red chilli to dark soya and pizza pasta sauce so a weeknight stir-fry or a lazy-Sunday pasta can taste like it came from your favourite restaurant, not a bottle.',
   email: 'customercare@sjmdfoods.com',
   phone: '+91 9119132499',
-  address: 'India', // PLACEHOLDER: Add full address if needed
+  address: 'SHREE JMD FOODS & PRODUCTS PRIVATE LIMITED, 516, Govind Rao Ji Ka Rasta, Chandpole Bazar, Purani Basti, Jaipur, Rajasthan - 302001',
 };
 
 // ===== ABOUT US INFORMATION =====
