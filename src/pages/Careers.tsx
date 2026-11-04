@@ -1,5 +1,3 @@
-import { companyInfo } from '../config/company';
-
 function Careers() {
   return (
     <div className="min-h-screen bg-white">
