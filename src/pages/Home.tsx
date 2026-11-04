@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { companyInfo, products, socialLinks } from '../config/company';
 import ProductModal from '../components/ProductModal';
 
@@ -30,7 +31,7 @@ function Home() {
         
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="max-w-2xl animate-fade-in">
+          <div className="max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight drop-shadow-lg">
               {companyInfo.name}
             </h1>
@@ -69,15 +70,15 @@ function Home() {
               {companyInfo.description}
             </p>
             <div className="mt-8">
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium"
               >
                 Learn more about us
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
       onClick={onClose}
     >
       <div 
-        className="bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+        className="relative bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}

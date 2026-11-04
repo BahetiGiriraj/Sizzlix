@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { aboutInfo } from '../config/company';
 
 function About() {
@@ -146,12 +147,12 @@ function About() {
           <p className="text-xl text-primary-100 mb-8">
             Explore career opportunities and be part of something exceptional
           </p>
-          <a
-            href="/careers"
+          <Link
+            to="/careers"
             className="inline-block px-8 py-3 bg-white text-primary-700 font-semibold rounded-lg hover:bg-primary-50 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             View Open Positions
-          </a>
+          </Link>
         </div>
       </section>
     </div>

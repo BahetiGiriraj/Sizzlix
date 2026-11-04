@@ -1,5 +1,4 @@
-// Company Configuration File
-// Replace all placeholder content with actual company information
+// Company Configuration
 
 export interface Product {
   id: string;
@@ -9,22 +8,6 @@ export interface Product {
   ingredients: string;
   features: string[];
   image: string;
-}
-
-export interface Career {
-  id: string;
-  title: string;
-  location: string;
-  type: 'Full-time' | 'Part-time' | 'Contract' | 'Remote';
-  description: string;
-  applicationLink: string;
-}
-
-export interface YouTubeVideo {
-  id: string;
-  title: string;
-  videoId: string; // YouTube video ID
-  thumbnail: string;
 }
 
 export interface SocialLink {
@@ -110,8 +93,8 @@ export const products: Product[] = [
     id: '3',
     name: 'Schezwan Hot & Spicy Sauce',
     description: 'Hot & Spicy',
-    keyBenefits: 'Shezwan Hot & SPICY Sauce is fiery, versatile Indo-Chinese condiment known for its bold, spicy, and tangy profile. It is Distinctively crafted by blending Sichuan peppers, pungent garlic and fiery red chillies to create a unique Chinese flavour.',
-    ingredients: 'Water, Garlic Paste(15%), Ginger Paste (13%), Red Chilli Paste 9&%), Sugar, Refined Soyabean Oil, Iodized Salt, Flavour enhancer (INS635), Natural Colour (INS150c), Stabilizers (INS1422)(INS415), White Pepper (1%), Acidity Regulator (INS 260), Spice Extract, Soya Sauce Powder, Preservatives (INS211) (INS202)',
+    keyBenefits: 'Schezwan Hot & Spicy Sauce is a fiery, versatile Indo-Chinese condiment known for its bold, spicy, and tangy profile. Distinctively crafted by blending Sichuan peppers, pungent garlic and fiery red chillies to create a unique Chinese flavour.',
+    ingredients: 'Water, Garlic Paste(15%), Ginger Paste (13%), Red Chilli Paste (9%), Sugar, Refined Soyabean Oil, Iodized Salt, Flavour enhancer (INS635), Natural Colour (INS150c), Stabilizers (INS1422)(INS415), White Pepper (1%), Acidity Regulator (INS 260), Spice Extract, Soya Sauce Powder, Preservatives (INS211) (INS202)',
     features: [
       'Bold, spicy, and tangy profile',
       'Blended with Sichuan peppers',
@@ -177,59 +160,6 @@ export const products: Product[] = [
     image: '/images/Ginger Garlic Paste Small Jar.jpg',
   },
 ];
-
-// ===== YOUTUBE VIDEOS =====
-export const youtubeVideos: YouTubeVideo[] = [
-  {
-    id: '1',
-    title: 'Sizzlix Sauces - Brand Introduction', // PLACEHOLDER: Replace with actual video title
-    videoId: 'dQw4w9WgXcQ', // PLACEHOLDER: Replace with actual YouTube video ID from @SizzlixSauces
-    thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-  },
-  {
-    id: '2',
-    title: 'How to Use Sizzlix Products', // PLACEHOLDER: Replace with actual video title
-    videoId: 'dQw4w9WgXcQ', // PLACEHOLDER: Replace with actual YouTube video ID from @SizzlixSauces
-    thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-  },
-  {
-    id: '3',
-    title: 'Sizzlix Recipe Ideas', // PLACEHOLDER: Replace with actual video title
-    videoId: 'dQw4w9WgXcQ', // PLACEHOLDER: Replace with actual YouTube video ID from @SizzlixSauces
-    thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-  },
-];
-
-// ===== CAREERS =====
-export const careers: Career[] = [
-  {
-    id: '1',
-    title: 'Senior Software Engineer', // PLACEHOLDER: Replace with actual job title
-    location: 'San Francisco, CA / Remote', // PLACEHOLDER: Replace with actual location
-    type: 'Full-time',
-    description: 'We are seeking an experienced software engineer to join our growing team. You will be responsible for designing, developing, and maintaining high-quality software solutions that power our products.', // PLACEHOLDER: Replace with actual job description
-    applicationLink: 'mailto:Hr@sjmdfoods.com?subject=Application for Senior Software Engineer',
-  },
-  {
-    id: '2',
-    title: 'Product Manager', // PLACEHOLDER: Replace with actual job title
-    location: 'New York, NY', // PLACEHOLDER: Replace with actual location
-    type: 'Full-time',
-    description: 'Join our product team to help shape the future of our products. You will work closely with engineering, design, and business teams to define product strategy and drive execution.', // PLACEHOLDER: Replace with actual job description
-    applicationLink: 'mailto:Hr@sjmdfoods.com?subject=Application for Product Manager',
-  },
-  {
-    id: '3',
-    title: 'UX/UI Designer', // PLACEHOLDER: Replace with actual job title
-    location: 'Remote', // PLACEHOLDER: Replace with actual location
-    type: 'Remote',
-    description: 'We are looking for a talented designer to create beautiful and intuitive user experiences. You will work on diverse projects and have the opportunity to impact millions of users.', // PLACEHOLDER: Replace with actual job description
-    applicationLink: 'mailto:Hr@sjmdfoods.com?subject=Application for UX/UI Designer',
-  },
-];
-
-// Set to empty array if no vacancies available
-// export const careers: Career[] = [];
 
 // ===== SOCIAL MEDIA =====
 export const socialLinks: SocialLink[] = [
