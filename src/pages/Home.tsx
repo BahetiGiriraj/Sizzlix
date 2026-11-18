@@ -63,13 +63,19 @@ function Home() {
       <section className="py-16 md:py-24 bg-gradient-to-b from-white to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
-              Who We Are
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">
+              About Us
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              {companyInfo.description}
+            <p className="text-xl font-semibold text-primary-600 mb-6">
+              Big flavours. Zero restaurant bills. Just Sizzlix!
             </p>
-            <div className="mt-8">
+            <p className="text-lg text-gray-600 leading-relaxed mb-4">
+              Why settle for ordinary when every meal can taste extraordinary? From fiery Schezwan and tangy Red Chilli to rich Dark Soya and our Pizza Pasta Sauce made from handpicked tomatoes, Sizzlix brings the favourites of restaurant-style flavours straight to your kitchen.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed italic mb-8">
+              Your kitchen. Your cravings. Your flavours, with just a little bit of our goodness.
+            </p>
+            <div className="mt-2">
               <Link
                 to="/about"
                 className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium"
