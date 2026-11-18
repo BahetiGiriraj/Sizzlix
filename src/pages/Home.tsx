@@ -198,10 +198,10 @@ function Home() {
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-primary-600 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors"
                     aria-label={social.platform}
                   >
-                    <span className="text-lg font-medium">{social.platform}</span>
+                    {social.platform}
                   </a>
                 ))}
               </div>
